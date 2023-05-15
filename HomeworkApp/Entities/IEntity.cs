@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HomeworkApp.Entities.Extensions
+namespace HomeworkApp.Entities
 {
-    internal class EntityExtensions
+    public interface IEntity
     {
+        public int Id { get; set; }
     }
 }
